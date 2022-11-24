@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chungus Test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--start button-->
+    <div class="start_btn"><button>Start Quiz</button></div>
+   
+    <!--info box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules of the Quiz</span>
+        </div>
+        <div class="infolist">
+            <div class="info">You'll have <span> 60 </span> seconds to complete the quiz</div>
+            <div class="info">You can only select one answer per question</div>
+            <div class="info">Score 5/5 to avoid being a Chonie!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Restart Quiz</button>
+        </div>
+    </div>
+    <!--QUIZ BOX-->
+    <div class="quiz">
+        <header>
+            <div class="title">The Chungus Quiz!</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">60</div>
+            </div>
+        </header>
+        <section>
+            <!--QUESTION 1-->
+            <div class="que_text">
+                <span>How are Java and Javascript related?</span>
+            </div>
+            <div class="option_list">
+                <!--OPTIONS-->
+                <div class="option">
+                    <span>They were both created by The Java Company</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Javascript does a project's frontend work while Java does the backend work</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>They are not at all related. People just like coffee</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>They are the two halves of the programming language Javacode</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+        </section>
+        <!--QUIZ BOX FOOTER-->
+        <footer>
+            <div class="total_qu">
+                <span><p>2</p>of<p>5</p></span>
+            </div>
+            <button class="next">Next Question</button>
+        </footer>
+    </div>
+    <!--RESULT BOX-->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've finished the Test!</div>
+        <div class="score_text">
+            <span>You scored <p>2</p> out of <p>5</p> You're a Chungus!</span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+</body>
+</html>
