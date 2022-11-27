@@ -1,2 +1,10 @@
 # JS-Quiz-App
-A browser-based quiz game powered by Javascript.
+Creating a timed quiz app using a mix of HTML, CSS, and Javascript.
+
+Credits:
+Credits to Github Docs, Stack Overflow, and my course instructors
+
+Link:
+
+
+![Screenshot]([https://github.com/MattyG6/Horiseon-Project/blob/main/Screenshot.png](https://github.com/MattyG6/JS-Quiz-App/blob/main/_C__Users_FunkMasterFlex_Dev_Week4_JS-Quiz-App_index.html.png))
