@@ -2,85 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Chungus Test</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="start_btn"><button>Start Quiz</button></div>
-   
-   
+
     <div class="info_box">
-        <div class="info_title">
-            <span>Rules of the Quiz</span>
-        </div>
-        <div class="info_list">
-            <div class="info">You'll have <span> 60 </span> seconds to complete the quiz</div>
-            <div class="info">You can only select one answer per question</div>
-            <div class="info">Score 5/5 to avoid being a Chonie!</div>
+        <div class="info-title"><span>Rules of the Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>60 seconds</span> ro complete the quiz</div>
+            <div class="info">2. You can only select one answer per question</div>
+            <div class="info">3. Score 5/5 to avoid being a chungus!</div>
         </div>
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
-            <button class="restart">Restart Quiz</button>
+            <button class="restart">Continue</button>
         </div>
     </div>
-    
-    <div class="quiz">
+
+    <div class="quiz_box">
         <header>
-            <div class="title">The Chungus Quiz!</div>
+            <div class="title">The Chungus Test</div>
             <div class="timer">
-                <div class="time_text">Time Left</div>
+                <div class="time_left_txt">Time Left</div>
                 <div class="timer_sec">60</div>
             </div>
+            <div class="time_line"></div>
         </header>
         <section>
-           
             <div class="que_text">
-                <span>How are Java and Javascript related?</span>
             </div>
             <div class="option_list">
-                
-                <div class="option">
-                    <span>They were both created by The Java Company</span>
-                    <div class="icon cross"><i class="fas fa-times"></i></div>
-                </div>
-                <div class="option">
-                    <span>Javascript does a project's frontend work while Java does the backend work</span>
-                    <div class="icon cross"><i class="fas fa-times"></i></div>
-                </div>
-                <div class="option">
-                    <span>They are not at all related. People just like coffee</span>
-                    <div class="icon tick"><i class="fas fa-check"></i></div>
-                </div>
-                <div class="option">
-                    <span>They are the two halves of the programming language Javacode</span>
-                    <div class="icon cross"><i class="fas fa-times"></i></div>
-                </div>
             </div>
         </section>
-        
+
+
         <footer>
-            <div class="total_qu">
-                <span><p>2</p>of<p>5</p></span>
+            <div class="total_que">
             </div>
-            <button class="next">Next Question</button>
+            <button class="next_btn">Next Question</button>
         </footer>
     </div>
-    
+
     <div class="result_box">
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've finished the Test!</div>
+        <div class="complete_text">You've completed the Quiz!</div>
         <div class="score_text">
-            <span>You scored <p>2</p> out of <p>5</p> You're a Chungus!</span>
+
         </div>
         <div class="buttons">
-            <button class="restart">Restart Quiz</button>
+            <button class="restart">Replay Quiz</button>
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
+
+    <script src="./questions.js"></script>
+
+    <script src="./script.js"></script>
+
 </body>
+</html>
 </html>
